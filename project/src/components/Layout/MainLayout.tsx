@@ -13,7 +13,7 @@ const MainLayout: React.FC = () => {
   return (
     <div className="flex h-screen">
       <Sidebar />
-      <main className="flex-1 overflow-y-auto bg-gray-50">
+      <main className="flex-1 overflow-y-auto bg-gray-50 md:ml-64">
         <Outlet />
       </main>
     </div>
