@@ -62,7 +62,7 @@ const Sidebar: React.FC = () => {
           </div>
         )}
 
-        <div className="p-6 font-bold text-xl border-b border-blue-700">Estação Tech</div>
+        <div className="p-6 font-bold text-xl border-b border-blue-700">Educacional iA</div>
         
         <SchoolSelector />
         

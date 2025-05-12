@@ -45,7 +45,7 @@ const Login: React.FC = () => {
       <div className="max-w-md w-full bg-white rounded-lg shadow-xl overflow-hidden">
         <div className="bg-blue-800 p-6 text-white flex items-center justify-center">
           <School size={32} className="mr-3" />
-          <h2 className="text-center text-3xl font-extrabold">Estação Tech</h2>
+          <h2 className="text-center text-3xl font-extrabold">Educacional iA</h2>
         </div>
         
         <div className="p-8">
