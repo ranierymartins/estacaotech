@@ -47,7 +47,7 @@ const Sidebar: React.FC = () => {
 
       {/* Sidebar */}
       <div 
-        className={`fixed md:relative z-40 h-screen bg-white-900 text-white w-64 flex flex-col transition-transform duration-300 ease-in-out
+        className={`fixed md:relative z-40 h-screen bg-white-900 text-black w-64 flex flex-col transition-transform duration-300 ease-in-out
           ${isMobile ? (isMobileSidebarOpen ? 'translate-x-0' : '-translate-x-full') : 'translate-x-0'}`}
       >
         {/* Close button for mobile */}
@@ -73,7 +73,7 @@ const Sidebar: React.FC = () => {
                 to="/dashboard" 
                 onClick={() => isMobile && setIsMobileSidebarOpen(false)}
                 className={({ isActive }) => 
-                  `flex items-center p-3 rounded-lg hover:bg-red-800 transition-colors ${isActive ? 'bg-blue-800' : ''}`
+                  `flex items-center p-3 rounded-lg hover:bg-red-800 transition-colors ${isActive ? 'bg-red-800' : ''}`
                 }
               >
                 <Home size={20} className="mr-3" />
