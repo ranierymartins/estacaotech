@@ -73,7 +73,7 @@ const Sidebar: React.FC = () => {
                 to="/dashboard" 
                 onClick={() => isMobile && setIsMobileSidebarOpen(false)}
                 className={({ isActive }) => 
-                  `flex items-center p-3 rounded-lg hover:bg-blue-800 transition-colors ${isActive ? 'bg-blue-800' : ''}`
+                  `flex items-center p-3 rounded-lg hover:bg-red-800 transition-colors ${isActive ? 'bg-blue-800' : ''}`
                 }
               >
                 <Home size={20} className="mr-3" />
