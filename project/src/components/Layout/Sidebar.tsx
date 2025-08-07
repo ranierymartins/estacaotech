@@ -152,7 +152,7 @@ const Sidebar: React.FC = () => {
                   to="/financeiro" 
                   onClick={() => isMobile && setIsMobileSidebarOpen(false)}
                   className={({ isActive }) => 
-                    `flex items-center p-3 rounded-lg hover:bg-blue-800 transition-colors ${isActive ? 'bg-blue-800' : ''}`
+                    `flex items-center p-3 rounded-lg hover:bg-blue-800 transition-colors ${isActive ? 'bg-blue-500' : ''}`
                   }
                 >
                   <DollarSign size={20} className="mr-3" />
@@ -167,7 +167,7 @@ const Sidebar: React.FC = () => {
                   to="/area-professor" 
                   onClick={() => isMobile && setIsMobileSidebarOpen(false)}
                   className={({ isActive }) => 
-                    `flex items-center p-3 rounded-lg hover:bg-blue-800 transition-colors ${isActive ? 'bg-blue-800' : ''}`
+                    `flex items-center p-3 rounded-lg hover:bg-blue-800 transition-colors ${isActive ? 'bg-blue-500' : ''}`
                   }
                 >
                   <BookOpen size={20} className="mr-3" />
@@ -182,7 +182,7 @@ const Sidebar: React.FC = () => {
                   to="/escolas" 
                   onClick={() => isMobile && setIsMobileSidebarOpen(false)}
                   className={({ isActive }) => 
-                    `flex items-center p-3 rounded-lg hover:bg-blue-800 transition-colors ${isActive ? 'bg-blue-800' : ''}`
+                    `flex items-center p-3 rounded-lg hover:bg-blue-800 transition-colors ${isActive ? 'bg-blue-500' : ''}`
                   }
                 >
                   <School size={20} className="mr-3" />
@@ -196,7 +196,7 @@ const Sidebar: React.FC = () => {
                 to="/assistente" 
                 onClick={() => isMobile && setIsMobileSidebarOpen(false)}
                 className={({ isActive }) => 
-                  `flex items-center p-3 rounded-lg hover:bg-blue-800 transition-colors ${isActive ? 'bg-blue-800' : ''}`
+                  `flex items-center p-3 rounded-lg hover:bg-blue-800 transition-colors ${isActive ? 'bg-blue-500' : ''}`
                 }
               >
                 <MessagesSquare size={20} className="mr-3" />
