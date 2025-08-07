@@ -11,7 +11,7 @@ const SchoolSelector: React.FC = () => {
   if (user?.role !== 'secretary') return null;
   
   return (
-    <div className="px-4 py-3 border-b border-blue-700 bg-blue-800 flex items-center">
+    <div className="px-4 py-3 border-b border-blue-700 bg-blue-500 flex items-center">
       <School className="text-blue-300 mr-2" size={20} />
       <select
         value={selectedSchool?.id || ''}
@@ -19,7 +19,7 @@ const SchoolSelector: React.FC = () => {
           const school = schools.find(s => s.id === e.target.value);
           setSelectedSchool(school || null);
         }}
-        className="flex-1 bg-blue-700 text-white border border-blue-600 rounded px-2 py-1 text-sm focus:outline-none focus:ring-2 focus:ring-blue-400"
+        className="flex-1 bg-blue-700 text-white border border-blue-200 rounded px-2 py-1 text-sm focus:outline-none focus:ring-2 focus:ring-blue-400"
       >
         <option value="">Todas as Escolas</option>
         {schools.map((school) => (
