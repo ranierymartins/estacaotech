@@ -19,7 +19,7 @@ const SchoolSelector: React.FC = () => {
           const school = schools.find(s => s.id === e.target.value);
           setSelectedSchool(school || null);
         }}
-        className="flex-1 bg-blue-700 text-white border border-blue-200 rounded px-2 py-1 text-sm focus:outline-none focus:ring-2 focus:ring-blue-400"
+        className="flex-1 bg-blue-200 text-white border border-blue-200 rounded px-2 py-1 text-sm focus:outline-none focus:ring-2 focus:ring-blue-400"
       >
         <option value="">Todas as Escolas</option>
         {schools.map((school) => (
