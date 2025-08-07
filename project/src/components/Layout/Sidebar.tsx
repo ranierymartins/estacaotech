@@ -217,7 +217,7 @@ const Sidebar: React.FC = () => {
             </div>
             <div>
               <div className="font-bold">{user?.name || "Usuário"}</div>
-              <div className="text-sm text-blue-200 capitalize">{user?.role || "Role"}</div>
+              <div className="text-sm text-black-200 capitalize">{user?.role || "Role"}</div>
             </div>
           </div>
           
