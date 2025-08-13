@@ -152,7 +152,7 @@ const Sidebar: React.FC = () => {
                   to="/financeiro" 
                   onClick={() => isMobile && setIsMobileSidebarOpen(false)}
                   className={({ isActive }) => 
-                    `flex items-center p-3 rounded-lg hover:bg-blue-800 transition-colors ${isActive ? 'bg-blue-500' : ''}`
+                    `flex items-center p-3 rounded-lg hover:bg-blue-800 transition-colors ${isActive ? 'bg-blue-800' : ''}`
                   }
                 >
                   <DollarSign size={20} className="mr-3" />
@@ -167,7 +167,7 @@ const Sidebar: React.FC = () => {
                   to="/area-professor" 
                   onClick={() => isMobile && setIsMobileSidebarOpen(false)}
                   className={({ isActive }) => 
-                    `flex items-center p-3 rounded-lg hover:bg-blue-800 transition-colors ${isActive ? 'bg-blue-500' : ''}`
+                    `flex items-center p-3 rounded-lg hover:bg-blue-800 transition-colors ${isActive ? 'bg-blue-800' : ''}`
                   }
                 >
                   <BookOpen size={20} className="mr-3" />
@@ -182,7 +182,7 @@ const Sidebar: React.FC = () => {
                   to="/escolas" 
                   onClick={() => isMobile && setIsMobileSidebarOpen(false)}
                   className={({ isActive }) => 
-                    `flex items-center p-3 rounded-lg hover:bg-blue-800 transition-colors ${isActive ? 'bg-blue-500' : ''}`
+                    `flex items-center p-3 rounded-lg hover:bg-blue-800 transition-colors ${isActive ? 'bg-blue-800' : ''}`
                   }
                 >
                   <School size={20} className="mr-3" />
@@ -196,7 +196,7 @@ const Sidebar: React.FC = () => {
                 to="/assistente" 
                 onClick={() => isMobile && setIsMobileSidebarOpen(false)}
                 className={({ isActive }) => 
-                  `flex items-center p-3 rounded-lg hover:bg-blue-800 transition-colors ${isActive ? 'bg-blue-500' : ''}`
+                  `flex items-center p-3 rounded-lg hover:bg-blue-800 transition-colors ${isActive ? 'bg-blue-800' : ''}`
                 }
               >
                 <MessagesSquare size={20} className="mr-3" />
@@ -217,7 +217,7 @@ const Sidebar: React.FC = () => {
             </div>
             <div>
               <div className="font-bold">{user?.name || "Usuário"}</div>
-              <div className="text-sm text-black-200 capitalize">{user?.role || "Role"}</div>
+              <div className="text-sm text-blue-200 capitalize">{user?.role || "Role"}</div>
             </div>
           </div>
           
