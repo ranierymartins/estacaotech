@@ -73,7 +73,7 @@ const Sidebar: React.FC = () => {
                 to="/dashboard" 
                 onClick={() => isMobile && setIsMobileSidebarOpen(false)}
                 className={({ isActive }) => 
-                  `flex items-center p-3 rounded-lg hover:bg-blue-800 transition-colors ${isActive ? 'bg-blue-800' : ''}`
+                  `flex items-center p-3 rounded-lg hover:bg-blue-300 transition-colors ${isActive ? 'bg-blue-500' : ''}`
                 }
               >
                 <Home size={20} className="mr-3" />
@@ -86,7 +86,7 @@ const Sidebar: React.FC = () => {
                 to="/discentes" 
                 onClick={() => isMobile && setIsMobileSidebarOpen(false)}
                 className={({ isActive }) => 
-                  `flex items-center p-3 rounded-lg hover:bg-blue-800 transition-colors ${isActive ? 'bg-blue-800' : ''}`
+                  `flex items-center p-3 rounded-lg hover:bg-blue-300 transition-colors ${isActive ? 'bg-blue-500' : ''}`
                 }
               >
                 <Users size={20} className="mr-3" />
@@ -99,7 +99,7 @@ const Sidebar: React.FC = () => {
                 to="/docentes" 
                 onClick={() => isMobile && setIsMobileSidebarOpen(false)}
                 className={({ isActive }) => 
-                  `flex items-center p-3 rounded-lg hover:bg-blue-800 transition-colors ${isActive ? 'bg-blue-800' : ''}`
+                  `flex items-center p-3 rounded-lg hover:bg-blue-300 transition-colors ${isActive ? 'bg-blue-500' : ''}`
                 }
               >
                 <BookOpen size={20} className="mr-3" />
@@ -112,7 +112,7 @@ const Sidebar: React.FC = () => {
                 to="/agendamentos" 
                 onClick={() => isMobile && setIsMobileSidebarOpen(false)}
                 className={({ isActive }) => 
-                  `flex items-center p-3 rounded-lg hover:bg-blue-800 transition-colors ${isActive ? 'bg-blue-800' : ''}`
+                  `flex items-center p-3 rounded-lg hover:bg-blue-300 transition-colors ${isActive ? 'bg-blue-500' : ''}`
                 }
               >
                 <Calendar size={20} className="mr-3" />
@@ -125,7 +125,7 @@ const Sidebar: React.FC = () => {
                 to="/estoque" 
                 onClick={() => isMobile && setIsMobileSidebarOpen(false)}
                 className={({ isActive }) => 
-                  `flex items-center p-3 rounded-lg hover:bg-blue-800 transition-colors ${isActive ? 'bg-blue-800' : ''}`
+                  `flex items-center p-3 rounded-lg hover:bg-blue-300 transition-colors ${isActive ? 'bg-blue-500' : ''}`
                 }
               >
                 <Package2 size={20} className="mr-3" />
@@ -138,7 +138,7 @@ const Sidebar: React.FC = () => {
                 to="/funcionarios" 
                 onClick={() => isMobile && setIsMobileSidebarOpen(false)}
                 className={({ isActive }) => 
-                  `flex items-center p-3 rounded-lg hover:bg-blue-800 transition-colors ${isActive ? 'bg-blue-800' : ''}`
+                  `flex items-center p-3 rounded-lg hover:bg-blue-300 transition-colors ${isActive ? 'bg-blue-500' : ''}`
                 }
               >
                 <User size={20} className="mr-3" />
@@ -152,7 +152,7 @@ const Sidebar: React.FC = () => {
                   to="/financeiro" 
                   onClick={() => isMobile && setIsMobileSidebarOpen(false)}
                   className={({ isActive }) => 
-                    `flex items-center p-3 rounded-lg hover:bg-blue-800 transition-colors ${isActive ? 'bg-blue-500' : ''}`
+                    `flex items-center p-3 rounded-lg hover:bg-blue-300 transition-colors ${isActive ? 'bg-blue-500' : ''}`
                   }
                 >
                   <DollarSign size={20} className="mr-3" />
@@ -167,7 +167,7 @@ const Sidebar: React.FC = () => {
                   to="/area-professor" 
                   onClick={() => isMobile && setIsMobileSidebarOpen(false)}
                   className={({ isActive }) => 
-                    `flex items-center p-3 rounded-lg hover:bg-blue-800 transition-colors ${isActive ? 'bg-blue-500' : ''}`
+                    `flex items-center p-3 rounded-lg hover:bg-blue-300 transition-colors ${isActive ? 'bg-blue-500' : ''}`
                   }
                 >
                   <BookOpen size={20} className="mr-3" />
@@ -182,7 +182,7 @@ const Sidebar: React.FC = () => {
                   to="/escolas" 
                   onClick={() => isMobile && setIsMobileSidebarOpen(false)}
                   className={({ isActive }) => 
-                    `flex items-center p-3 rounded-lg hover:bg-blue-800 transition-colors ${isActive ? 'bg-blue-500' : ''}`
+                    `flex items-center p-3 rounded-lg hover:bg-blue-500 transition-colors ${isActive ? 'bg-blue-500' : ''}`
                   }
                 >
                   <School size={20} className="mr-3" />
@@ -196,7 +196,7 @@ const Sidebar: React.FC = () => {
                 to="/assistente" 
                 onClick={() => isMobile && setIsMobileSidebarOpen(false)}
                 className={({ isActive }) => 
-                  `flex items-center p-3 rounded-lg hover:bg-blue-800 transition-colors ${isActive ? 'bg-blue-500' : ''}`
+                  `flex items-center p-3 rounded-lg hover:bg-blue-500 transition-colors ${isActive ? 'bg-blue-500' : ''}`
                 }
               >
                 <MessagesSquare size={20} className="mr-3" />
